@@ -4,4 +4,5 @@ Project for making archetype for jee aplication with:
 - Pretty Faces
 - JPA
 - EJB
-- Maven
+- Maven with modules
+- Maven wrapper

@@ -34,5 +34,10 @@
 			<groupId>com.ocpsoft</groupId>
 			<artifactId>prettyfaces-jsf2</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>jee-demo</groupId>
+			<artifactId>demo-service</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 	</dependencies>
 </project>

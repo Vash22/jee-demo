@@ -17,4 +17,8 @@ public class UserRepository {
 	public List<User> findAll() {
 		return em.createQuery("select u from User u", User.class).getResultList();
 	}
+
+	public int countAll() {
+		return em.createQuery("select count(u) from User u").getFirstResult();
+	}
 }

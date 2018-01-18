@@ -6,5 +6,10 @@
 		<pattern value="/" />
 		<view-id value="/views/home.xhtml" />
 	</url-mapping>
+	<url-mapping id="user">
+		<pattern value="/app/user" />
+		<view-id value="/views/user.xhtml" />
+		<action onPostback="false">#{userController.init()}</action>
+	</url-mapping>
 
 </pretty-config>

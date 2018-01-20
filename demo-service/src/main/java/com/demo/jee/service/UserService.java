@@ -14,8 +14,8 @@ public class UserService {
 	@EJB
 	private UserRepository userRepository;
 
-	public List<User> fetchAllUsers() {
-		return userRepository.findAll();
+	public List<User> fetchAllUsers(int first, int pageSize) {
+		return userRepository.findAll(first, pageSize);
 	}
 
 	public int countAllUsers() {

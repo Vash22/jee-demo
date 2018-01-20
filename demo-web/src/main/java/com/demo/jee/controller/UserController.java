@@ -35,7 +35,7 @@ public class UserController {
 			public List<User> load(int first, int pageSize, String sortField, SortOrder sortOrder,
 					Map<String, Object> filters) {
 				setRowCount(userService.countAllUsers());
-				return userService.fetchAllUsers();
+				return userService.fetchAllUsers(first, pageSize);
 			}
 		};
 	}

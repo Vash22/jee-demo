@@ -14,6 +14,7 @@
 		<module>demo-web</module>
 		<module>demo-dao</module>
 		<module>demo-service</module>
+		<module>data-sample</module>
 	</modules>
 
 	<properties>
